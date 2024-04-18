@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.hero-container {
+    background-color: #072849; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; 
+    color: white;
+}
+.hero-button {
+    background-color: #56ca19; 
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.component {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f7f7f7; 
+}
+.component img {
+    max-width: 50%;
+    height: auto;
+}
+.component-text {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-around; 
+}
+.text-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1; 
+}
+.main-content {
+    padding: 20px;
+}
+.cta-button { 
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.main-content img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.component-text ul {
+    list-style-type: disc; 
+    margin-left: 20px; 
+}
